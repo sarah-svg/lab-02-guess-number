@@ -1,4 +1,39 @@
-body {
-  background-image: url("number.png");
- 
- }
+main, html {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bolder;
+  color: black;
+  font-size: 94%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -90px;
+  margin-left: -150px;
+  background-color: aquamarine;
+  fit
+
+  
+}
+
+
+
+h1, p, .form {
+  width: 200px;
+  height: 120px;
+  background:aqua;
+  border-radius: 50%;
+  
+}
+
+
+/*h1, p, .form{
+width: 170px;
+  height: 130px;
+  transform: skew(20deg);
+  color: aqua;
+  background-color: black;
+  padding: 5% ;
+}*/
+
+
+
+

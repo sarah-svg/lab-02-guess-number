@@ -1,29 +1,37 @@
-
-    // random value generated 
+/* eslint-disable quotes */
 let y = Math.floor(Math.random() * 20 + 1); 
-      
-    // counting the number of guesses 
-    // made for correct Guess 
+   
+// counting the number of guesses 
+// made for correct Guess 
 let number = 1; 
-      
-document.getElementById('submitguess').onclick = function(){ 
-      
-   // number guessed by user      
-    let x = document.getElementById('guessField').value; 
+
+document.getElementById("submit-guess").onclick = function(){ 
   
+  
+    let x = document.getElementById("guessField").value; 
+
     if (x === y) 
     {     
-        alert(`CONGRATULATIONS!!! ${number} GUESS `); 
+        alert("Congrats "
+           + `${ number } GUESS `); 
     } 
-    else if (x > y)  
+    else if (x > y) 
+   
     {     
         number++; 
-        alert('too high'); 
+        alert("TOO HIGH"); 
     } 
     else
     { 
         number++; 
-        alert('too low'); 
+        alert("TOO LOW"); 
     } 
-}; 
+
+};
+// eslint-disable-next-line no-unused-vars
+function clear()
+{
+    document.getElementById("myForm").reset();
+}
+
 
